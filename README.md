@@ -25,3 +25,24 @@ Tujuan:
 4.	Membantu admin mengelola menu, akun pengguna, riwayat transaksi, dan laporan penjualan.
 5.	Menghasilkan bukti transaksi berupa invoice dan riwayat pemesanan yang tercatat otomatis.
 6.	Menerapkan konsep dasar pemrograman Python seperti percabangan, perulangan, fungsi, tuple, list, dictionary, penanganan error, dan pengelolaan file JSON.
+
+FLOWCHART
+
+Berikut ini merupakan flowchart dari sistem pemesanan makanan online yang menggambarkan alur proses kerja sistem, mulai dari proses awal hingga proses akhir. Flowchart ini dibuat untuk mempermudah pemahaman terhadap tahapan dan alur kerja sistem yang dikembangkan.<br>
+| NAMA FLOWCHART | GAMBAR FLOWCHART | PENJELASAN |
+| :---: | :---: | :--- |
+| 1.Menu Utama |
+| 2.Menu Registrasi | <img width="304" height="1072" alt="Salinan dari pa ddp-Registrasi drawio" src="https://github.com/user-attachments/assets/89efc3eb-bdc9-4639-a8eb-5c390d37faa6" /> | <p>berikut ini adalah penjelasan alur flowchart dari menu registrasi:</p><p><b>1. Input dan Validasi Username</b><br>Pengguna diminta memasukkan username dengan ketentuan minimal 4 karakter. Sistem kemudian melakukan pengecekan kondisi (decision):<br>• Jika Tidak memenuhi syarat (&lt; 4 karakter), sistem menampilkan pesan "Username minimal 4 karakter" lalu mengarahkan pengguna untuk menginput ulang username.<br>• Jika Ya (valid), alur dilanjutkan ke tahap berikutnya.</p><p><b>2. Input dan Validasi Password</b><br>Pengguna diminta memasukkan password dengan ketentuan minimal 6 karakter. Sistem kembali melakukan validasi:<br>• Jika Tidak memenuhi syarat (&lt; 6 karakter), sistem menampilkan pesan "Password minimal 6 karakter" lalu meminta pengguna menginput ulang password.<br>• Jika Ya (valid), proses berlanjut ke penyimpanan.</p><p><b>3. Penyimpanan Data dan Output</b><br>• Sistem memproses data akun baru dan menyimpannya secara permanen ke dalam file penyimpanan database (data.json).<br>• Sistem mencetak pesan sukses "Registrasi berhasil. Silakan login." ke layar.</p><p><b>4. Jika registrasi telah perhasil</b>,program akan mengarahkan untuk kembali ke Menu Utama agar user bisa melakukan login dengan akun yang baru dibuat.</p> |
+| 3.Menu Login Sebagai Admin |
+| 4.Menu Login Sebagai User | <img width="2407" height="3662" alt="pa ddp-Menu User" src="https://github.com/user-attachments/assets/a346e886-c8a8-4a60-95b3-169e264af5d4" /> |
+
+
+
+
+
+1.Menu Utama
+
+2.Menu Registrasi
+Berikut ini merupakan flowchart menu registrasi yang menggambarkan alur proses pembuatan akun baru untuk user, mulai dari memasukkan data pengguna hingga akun berhasil didaftarkan ke dalam sistem.
+><img width="304" height="1072" alt="Salinan dari pa ddp-Registrasi drawio" src="https://github.com/user-attachments/assets/89efc3eb-bdc9-4639-a8eb-5c390d37faa6" />
+
